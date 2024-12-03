@@ -1,4 +1,4 @@
 import './setup.js';
-import { similarWizards } from './data.js';
+import { createWizards } from './data.js';
 
-console.log(similarWizards());
+console.log(createWizards());

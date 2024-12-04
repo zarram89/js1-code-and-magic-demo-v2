@@ -1,5 +1,7 @@
-import { renderSimilarList, clearSimilarList } from './similar-list.js';
 import { isEscapeKey, isEnterKey } from './util.js';
+import { renderSimilarList, clearSimilarList } from './similar-list.js';
+import './user-form.js';
+
 
 const userModalElement = document.querySelector('.setup');
 const userModalOpenElement = document.querySelector('.setup-open');
